@@ -10,11 +10,80 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+// need license badge at top of page
+// license link 
+// switch statement
+// make table of content links work
 
-`;
+// description function
+function generateDescription(description){
+return `## Description
+${description}
+`
 }
 
-module.exports = generateMarkdown;
+function tableOfContents(){
+return `## Table of Contents
+- [Installation](#Installation)
+- [Contribution](#How to Contribute)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)`
+
+}
+
+function installInstrucions(Installation){
+return `## Installation
+${Installation}`
+}
+
+function contributionGuidlines(contribute){
+  return`## How to Contribute
+  ${contribute}`
+}
+
+function licenseGuidlines(license){
+  return`## License
+  ${license}`
+}
+
+function testGuidlines(test){
+return`## Tests
+${test}`
+}
+
+function questionsArea(question, emailProvided){
+  return `## Questions
+  [${question}](https://github.com/${question}).
+  Contact me at this email![${emailProvided}](mailto:${emailProvided}).`;
+}
+
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  console.log("hello");
+  return `# ${data["Project Title"]}
+
+${generateDescription(data.Description)}
+
+${tableOfContents(data.Description)}
+
+${installInstrucions(data.Install)}
+
+${contributionGuidlines(data.Contributions)}
+
+${licenseGuidlines(data.License)}
+
+${testGuidlines(data.Tests)}
+
+${questionsArea(data.Questions, data.providedEmail)}
+`
+}
+
+
+
+
+module.exports = {
+generateMarkdown: generateMarkdown,
+generateDescription: generateDescription,
+
+} 
