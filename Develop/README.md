@@ -1,9 +1,9 @@
-# README
+# README-Generator
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-kdfsjhgfdkjhldfsghgkjldfhgkljdfsghdfkljghdflkgj
+I built a README generator that shoots out pro readmes.
 
 
 ## Table of Contents
@@ -13,7 +13,7 @@ kdfsjhgfdkjhldfsghgkjldfhgkljdfsghdfkljghdflkgj
 - [License](#license)
 
 ## Installation
-Do this then that
+None
 
 ## Usage
   Provide instructions and examples for use. Include screenshots as needed.
@@ -26,17 +26,17 @@ To add a screenshot, create an assets/images folder in your repository and uploa
     
 
 ## Credits
-  no one
+  
 
 ## How to Contribute
   owen4man@gmail.com
 
 ## License
-  Mozilla
-  https://opensource.org/licenses/MPL-2.0
+  MIT
+  https://opensource.org/licenses/MIT
 
 ## Tests
-test it
+None
 
 ## Questions
   (https://github.com/owenforeman1)

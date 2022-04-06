@@ -2,6 +2,7 @@
 
 ## Description
 
+I wanted to make an application that can quickly generate READMES in a professional format. I wanted to reduce the time it takes for me to make a readme and automate the process.
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
@@ -27,10 +28,9 @@ What are the steps required to install your project? Provide a step-by-step desc
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+ 
+![](readmedemo.mp4)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
