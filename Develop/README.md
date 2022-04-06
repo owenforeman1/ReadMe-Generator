@@ -1,9 +1,9 @@
 # README-Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description
-I wanted to make an application that can quickly generate READMES in a professional format. I wanted to reduce the time it takes for me to make a readme and automate the process. I learned a lot about switch statements and a lot about readme syntax.
+This is an automated readme generator so you dont have to spend more time making a readme.
 
 
 ## Table of Contents
@@ -29,11 +29,11 @@ To add a screenshot, create an assets/images folder in your repository and uploa
   
 
 ## How to Contribute
-  owen4man@gmail.com
+  Email
 
 ## License
-  MIT
-  https://opensource.org/licenses/MIT
+  Mozilla
+  https://opensource.org/licenses/MPL-2.0
 
 ## Tests
 None

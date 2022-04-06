@@ -108,7 +108,7 @@ function questionsArea(question, emailProvided){
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("hello");
+  
   return `# ${data["Project Title"]}
 
 ${renderLicenseBadge(data.License)}

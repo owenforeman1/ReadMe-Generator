@@ -12,10 +12,6 @@ I wanted to make an application that can quickly generate READMES in a professio
 - [License](#license)
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
  
 ![img alt text](./ReadMe-Generator-Visual-Studio-Code-2022-04-05-20-37-54.gif)
 
