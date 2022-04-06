@@ -41,6 +41,11 @@ function init() {
       },
       {
         type: "input",
+        name: "Credits",
+        message: "Who helped with this project?",
+      },
+      {
+        type: "input",
         name: "Contributions",
         message: "How can someone contribute to this project?",
       },
@@ -48,7 +53,7 @@ function init() {
         type: "list",
         name: "License",
         message: "Which license do you want to use?",
-        choices: ["Apache", "MIT", "GNU"],
+        choices: ["Apache", "Mozilla", "MIT", "GNU"],
       },
       {
         type: "input",
@@ -69,7 +74,7 @@ function init() {
     .then((data) => {
       console.log(data);
       console.log(markdown.generateMarkdown(data));
-      writeToFile("file.md", markdown.generateMarkdown(data));
+      writeToFile("README.md", markdown.generateMarkdown(data));
     });
 }
 
