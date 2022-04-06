@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-I built a README generator that shoots out pro readmes.
+I wanted to make an application that can quickly generate READMES in a professional format. I wanted to reduce the time it takes for me to make a readme and automate the process. I learned a lot about switch statements and a lot about readme syntax.
 
 
 ## Table of Contents
